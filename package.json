@@ -1,0 +1,23 @@
+{
+  "name": "twitterlarrave",
+  "version": "1.0.0",
+  "description": "Proyecto twitter de Larrave",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Alejandro Larrave IN6BV",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4",
+    "twitter-command": "^1.0.4"
+  }
+}
